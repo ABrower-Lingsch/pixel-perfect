@@ -583,25 +583,212 @@ main {
 
 
 .mattie {
-    height: 545px;
+    height: 546px;
     width: 362px;
     background-color: white;
-    margin-bottom: 40px;
+    margin-bottom: 38px;
     border: solid 1px rgba(128, 128, 128, 0.199);
+    position: relative;
+}
+
+.mattie-town {
+    position: relative;
+    width: 360px;
+    height: 183px;
+    top: 0;
+    left: 0;
+    margin-top: -1px;
+    z-index: 10;
+}
+
+.mattie-standin {
+    position: absolute;
+    z-index: 20;
+    top: 98px;
+    left: 83px;
+    border: solid 7px #ffffff;
+    border-radius: 50%;
+}
+
+.mattie-name {
+    text-align: center;
+    margin-top: 113px;
+    font-family: "Oswald";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.mattie-text {
+    font-family: "Lato";
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    margin: 20px 30px 20px 30px;
+    color: rgb(97, 97, 97);
+}
+
+.mattie-footer-list {
+    text-align: center;
+    padding: 0;
+    margin-left: -9px;
+    margin-top: 29px;
+    
+}
+
+.mattie-footer-list > li {
+    display: inline-block;
+    padding: 0px 2px;
+}
+
+.mattie-footer-list > li:nth-child(1) > a {
+    padding: 7px 10px 5px 10px;
+}
+
+.mattie-footer-list > li:nth-child(5) > a {
+    padding: 7px 8px 5px 8px;
+}
+
+.mattie-footer-list > li:nth-child(3) > a {
+    padding: 7px 6px 5px 6px;
+}
+
+.mattie-footer-list > li:nth-child(2) > a {
+    padding: 6px 8px;
+}
+
+.mattie-footer-list > li:nth-child(4) > a {
+   padding: 7px 8px 5px 8px;
+}
+
+.mattie-footer-list > li:nth-child(5) {
+    margin-left: 3px;
+}
+
+.mattie-footer-list > li >a {
+    color: rgba(68, 66, 66, 0.431);
+    font-size: 13px;
+    border: solid 1px rgba(184, 184, 184, 0.431);
+    border-radius: 50%;
+}
+
+.mattie-footer-list > li >a:hover {
+    color:rgb(208, 64, 39);
+    border: solid 1px rgb(208, 64, 39);
 }
 
 .popular {
-    height: 985px;
-    width: 360px;
+    height: 987px;
+    width: 362px;
     background-color: white;
-    margin-bottom: 40px;
+    margin-bottom: 38px;
+    border: solid 1px rgba(128, 128, 128, 0.199);
+}
+
+.popular-title {
+    text-align: center;
+    font-family: "Oswald";
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 31px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.popular-section {
+    margin: 0px 30px 20px 30px;
+    border-bottom: solid 1px rgba(184, 184, 184, 0.431);
+}
+
+.popular-text {
+    font-family: "Oswald";
+    font-size: 14px;
+    letter-spacing: 0.85px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.popular-date {
+    font-family: "Lato";
+    font-size: 13px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    margin-top: 12px;
+    margin-bottom: 18px;
+    color: rgba(112, 110, 110, 0.747);
+}
+
+.popular > div:nth-child(4) {
+    border-bottom: none;
+}
+
+.pop-img-background {
+    background-color: rgb(208, 64, 39);
+    height: 200px;
+    margin-bottom: 14px;
+}
+
+.hover-img:hover {
+    opacity: 0.5;
+    
 }
 
 .latest {
-    height: 514px;
-    width: 360px;
+    height: 516px;
+    width: 362px;
     background-color: white;
     margin-bottom: 40px;
+    border: solid 1px rgba(128, 128, 128, 0.199);   
+}
+
+.late-img-background > img {
+    height: 76px;
+    width: 103px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+}
+
+.latest-title {
+    text-align: center;
+    font-family: "Oswald";
+    font-size: 18px;
+    font-weight: 450;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    margin-bottom: 26px;
+}
+
+.latest-text {
+    font-family: "Oswald";
+    font-size: 13px;
+    letter-spacing: 0.35px;
+    margin-top: 1px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.latest-date {
+    font-family: "Lato";
+    font-size: 13.5px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    margin-top: 0;
+    color: rgba(112, 110, 110, 0.747);
+    line-height: 16px;
+}
+
+.latest-section {
+    margin: 0px 30px 14px 30px;
+    display: flex;
+    justify-content: left;
+    border-bottom: solid 1px rgba(184, 184, 184, 0.431);
+}
+
+.latest div:nth-child(5) {
+    margin-top: -1px;
+    border: none;
 }
 
 .insta-feed {
