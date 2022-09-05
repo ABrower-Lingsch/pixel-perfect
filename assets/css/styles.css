@@ -941,17 +941,30 @@ main {
 }
 
 
-@media (max-width: 1120px) {
+@media (max-width: 768px) {
 
 main {
     display: flex;
     justify-content: center;
-    flex: column;
+    flex-direction: column;
     width: fit-content;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+}
+
+html {
+    width: fit-content;
+}
+
+.main-bar {
+    scale: .5;
     margin-left: 0;
     margin-right: 0;
 }
 
+.side-bar {
+    justify-content: center;
+}
 
 
 }
