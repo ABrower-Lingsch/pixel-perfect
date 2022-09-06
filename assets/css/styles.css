@@ -966,5 +966,21 @@ html {
     justify-content: center;
 }
 
+.america {
+    width: 362px;
+}
+
+.american-flag {
+    width: 362px;
+    height: auto;
+}
+
+.america-footer-social {
+    font-size: 10px;
+}
+
+.america-footer > p {
+    font-size: 12px;
+}
 
 }
