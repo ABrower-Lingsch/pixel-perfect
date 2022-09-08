@@ -994,6 +994,10 @@ html {
     font-size: 12px;
 }
 
+.nav {
+    margin: 0;
+}
+
 .main-bar {
     margin-left: 0;
     margin-right: 0;
@@ -1120,6 +1124,11 @@ html {
 
 .insta-feed {
     width: 100%;
+}
+
+.insta-img-background {
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 }
