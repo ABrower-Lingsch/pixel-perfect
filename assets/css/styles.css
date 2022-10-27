@@ -83,6 +83,10 @@ nav > .nav-options {
     color: rgb(154, 154, 154);
 }
 
+.nav-drop {
+    display: none;
+}
+
 main {
     margin: 50px 149px 0px 149px;
     display: flex;
@@ -931,6 +935,8 @@ main {
     display: flex;
     width: 100%;
     margin: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .insta-foot-likes {
@@ -996,6 +1002,17 @@ html {
 
 .nav {
     margin: 0;
+}
+
+nav > ul {
+    display: none;
+}
+
+.nav-drop {
+    display: flex;
+    justify-content: right;
+    font-size: 40px;
+    margin: 15px 20px 0 0;
 }
 
 .main-bar {
@@ -1129,6 +1146,10 @@ html {
 .insta-img-background {
     margin-right: 30px;
     margin-left: 30px;
+}
+
+.insta-foot-pics li:nth-child(n+5) {
+    display: none;
 }
 
 }
