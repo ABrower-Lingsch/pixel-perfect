@@ -1125,7 +1125,7 @@ nav > ul {
 
 .mattie-standin {
     position: absolute;
-    left: 150px;
+    left: 127px;
 }
 
 .popular {
@@ -1156,5 +1156,17 @@ nav > ul {
 
 .insta-foot-background > p {
     margin: 0;
+}
+
+.insta-foot-background {
+    height: 140px;
+}
+
+.insta-foot-background img {
+    height: 140px;
+}
+
+.insta-foot-likes:hover {
+    height: 140px;
 }
 }
